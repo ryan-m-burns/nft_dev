@@ -18,12 +18,14 @@ This project includes a development environment with hot reload capabilities usi
 ### Getting Started
 
 1. Clone the repository:
+
    ```bash
-   git clone https://github.com/USERNAME/nft_dev.git
+   git clone https://github.com/ryan-m-burns/nft_dev.git
    cd nft_dev
    ```
 
 2. Start the development container:
+
    ```bash
    docker-compose up
    ```
@@ -35,15 +37,18 @@ This project includes a development environment with hot reload capabilities usi
 ### Setting up your GitHub Repository
 
 1. Create a new GitHub repository
+
    - Go to [GitHub](https://github.com) and create a new repository named `nft_dev`
    - Make the repository public for GitHub Pages
 
 2. Update your local repository
+
    ```bash
    git remote set-url origin https://github.com/USERNAME/nft_dev.git
    ```
 
 3. Update the placeholders
+
    - In `package.json`: Change `USERNAME` in the homepage URL to your GitHub username
    - In `vite.config.js`: Ensure the base path matches your repository name
 
