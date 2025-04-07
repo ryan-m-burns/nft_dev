@@ -1,5 +1,5 @@
 # Name of our overall action
-name: Delopy to Github Pages
+name: Deploy to Github Pages
 
 # on defines WHEN the action(s) will run
 on:
