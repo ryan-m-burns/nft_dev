@@ -24,7 +24,7 @@ permissions:
 # This avoids conflicts and ensures only one deployment happens at a time
 concurrency:
   # The group name ensures all jobs related to the same branch/PR will be grouped
-  group: "pages"
+  group: 'pages'
   # This setting cancels any in-progress job in the group when a new one is started
   # Saves GitHub Actions minutes and ensures only the latest code is deployed
   cancel-in-progress: true
@@ -64,10 +64,10 @@ jobs:
         with:
           # The version of Node.js to use
           # You can specify an exact version (e.g., "18.15.0") or a major version with latest minor/patch
-          node-version: "18"
+          node-version: '18'
           # Enables caching of dependencies to speed up workflows
           # We specify "pnpm" since that's our package manager
-          cache: "pnpm"
+          cache: 'pnpm'
 
       # Step 4: Install project dependencies using pnpm
       - name: Install dependencies
